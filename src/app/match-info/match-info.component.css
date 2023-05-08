@@ -1,0 +1,13 @@
+.match-info__container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(203, 234, 209);
+    height: 30px;
+}
+
+.match-info__container > p {
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+    font-size: 12px;
+}

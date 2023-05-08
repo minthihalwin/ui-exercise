@@ -1,0 +1,35 @@
+.result__container {
+  width: 100%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+  height: 20px;
+}
+
+.left{
+  display: flex;
+}
+.name > img {
+    object-fit: contain;
+    height: 20px;
+}
+.second__row > hr {
+  border-top: 3px solid #bbb;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.third__row > p{
+  font-size: 15px;
+}
+
+

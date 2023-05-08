@@ -1,0 +1,19 @@
+<div class="result__container" *ngFor="let p of data; let i = index">
+    <div class="first__row">
+        <div class="name">
+            <div class="left">
+                <p>Name :</p>
+                <img [src]="source" alt="">
+                <p>{{p.name}}</p>
+            </div>
+            <div><p>Application: {{p.applicationTitle}}</p></div>
+            <div><p>storage Timestamp: {{p.timestamp}}</p></div>
+        </div>
+    </div>
+    <div class="second__row">
+        <hr>
+    </div>
+    <div class="third__row">
+        <p>Keyword: {{p.Keywords}}</p>
+    </div>
+</div>

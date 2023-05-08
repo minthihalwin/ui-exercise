@@ -1,0 +1,38 @@
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  height: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 10px;
+  align-items: center;
+}
+
+.pagination__items-per-page {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.pagination__items-per-page span {
+  margin-right: 5px;
+}
+
+.pagination__pages {
+  display: flex;
+  align-items: center;
+  
+}
+.pagination__pages > button {
+  margin-right: 8px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+}
+
+.pagination__status {
+  margin-right: 10px;
+  font-size: 12px;
+}
